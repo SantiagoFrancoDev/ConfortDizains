@@ -1,0 +1,474 @@
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0px auto;
+}
+
+body {
+  background: #fff;
+  color: #666;
+}
+
+header {
+  height: 64px;
+}
+
+#titulo {
+  font-family: "Lobster", cursive;
+  color: #444;
+  padding: 10px;
+  text-decoration: none !important;
+  font-size: 37px;
+  display: inline-flex;
+}
+
+#aTitulo {
+  text-decoration: none;
+}
+
+nav a {
+  color: #444;
+}
+
+nav a:hover {
+  color: #444;
+  text-decoration: none !important;
+}
+
+nav ul {
+  color: #444;
+  float: right;
+  margin-right: 0px;
+  padding: 17px;
+  text-transform: uppercase;
+  font-size: 20px;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 3px;
+  color: #777;
+  text-decoration: none;
+  text-align: center;
+}
+
+.splash {
+  max-width: 100vh;
+  height: 597px;
+  background: url(../img/splash.jpg) center center fixed;
+  margin: 0 auto;
+  color: #333;
+  border: solid 1px #f9f7cf;
+  border-radius: 10px;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 1px;
+}
+
+.text {
+  margin-top: 100px;
+  color: #f4f4f2;
+}
+
+#somos {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 0px;
+}
+
+.row .btn {
+  background: #777;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.espacios {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.content {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.content h3 {
+  font-family: "Lobster", cursive;
+}
+
+.img {
+  width: 180px;
+  height: 454px;
+  object-position: center;
+  object-fit: cover;
+  box-sizing: border-box;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/*botones img producto/*/
+
+.btn.btn-secondary {
+  margin: 10px 0px 0px 28px;
+}
+
+.card {
+  margin-left: 3vh;
+}
+
+.col-md-8 {
+  margin-bottom: 100px;
+}
+
+.somos {
+  font-size: 40px;
+  text-align: center;
+}
+
+#letritas {
+  background: #f2f2f2;
+  margin-bottom: 0px;
+}
+
+.pintadito {
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.row .cards i {
+  height: 30px;
+}
+
+#cards {
+  margin-left: 5vh;
+}
+
+#cards i {
+  font-size: 80px;
+  margin-left: 30px;
+}
+
+#cards h3 {
+  padding: 30px;
+  font-family: "Lobster", cursive;
+}
+
+#cards p {
+  padding: 30px;
+}
+
+.content p {
+  color: #333;
+}
+
+.titulofotos {
+  font-size: 90px;
+}
+
+#form {
+  margin-right: 40vh;
+}
+
+#contactanos {
+  margin-left: 60px;
+}
+
+.mb-3 {
+  margin-left: 300px;
+  width: 100%;
+}
+
+#productos {
+  margin-top: 1px;
+}
+
+/*/ /////////FOOTER/////*/
+#footer {
+  background: #43424233;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#tarjetas {
+  font-size: 20px;
+  color: #555;
+  padding-left: 60px;
+}
+
+#tarjetas a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #666;
+  text-align: right;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+#tarjetas i {
+  font-size: 22px;
+}
+
+/*/ /////////MEDIA QUERIES/////*/
+
+@media screen and (min-width: 320px) {
+  #titulo {
+    font-family: "Lobster", cursive;
+    color: #444;
+    padding: 10px;
+    text-decoration: none;
+
+    display: inline;
+    margin-right: 5px;
+  }
+  nav {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+  }
+
+  #titulo {
+    font-size: 20px;
+  }
+  .splash {
+    max-width: 100%;
+    height: 300px;
+    background: url(../img/splash.jpg) center center ;
+    background-size: cover;
+    color: #333;
+    border: solid 1px #f9f7cf;
+    border-radius: 10px;
+    font-family: "Noto Serif", serif;
+  }
+  .somos {
+    margin-top: 0px;
+    font-size: 30px;
+  }
+  .animado {
+    font-size: 30px;
+  }
+  .img {
+    width: 100%;
+    height: 454px;
+    object-position: center;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  .btn.btn-secondary {
+    margin-left: 65px;
+    margin-bottom: 20px;
+  }
+  .col-md-8 {
+    margin-bottom: 20px;
+  }
+  .col-md-4 p {
+    margin-left: -10px;
+  }
+  .col-md-6 {
+    margin-left: 100px;
+    width: 100%;
+  }
+  #contactanos {
+    margin-left: -70px;
+    margin-bottom: 30px;
+  }
+  .mb-3 {
+    margin-left: -60px;
+
+    width: 180%;
+  }
+  #form {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #tarjetas {
+    font-size: 10px;
+  }
+  #tarjetas a {
+    font-size: 12px;
+    margin: 0px;
+  }
+  #tarjetas i {
+    font-size: 17px;
+  }
+  /*/ /////////PRODUCTOS PAGE/////*/
+}
+
+@media screen and (min-width: 375px) {
+  #titulo {
+    font-size: 28px;
+  }
+  nav {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .btn.btn-secondary {
+    margin-left: 92px;
+  }
+  #cards i {
+    margin-left: 40px;
+  }
+  #cards h3 {
+    margin-left: 25px;
+  }
+}
+
+
+@media screen and (min-width: 425px) {
+  nav {
+    margin-left: 90px;
+  }
+  .btn.btn-secondary {
+    margin-left: 110px;
+  }
+  #cards i {
+    margin-left: 80px;
+  }
+  #cards h3 {
+    margin-left: -1spx;
+  }
+  .mb-3 {
+    margin-left: -80px;
+    width: 400%;
+  }
+  #form {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+  
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0px auto;
+  }
+  #titulo {
+    font-size: 40px;
+  }
+  nav {
+    margin-left: 215px;
+  }
+  .boton-nav {
+    margin-left: 10px;
+  }
+  nav {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .splash {
+    max-width: 100%;
+    height: 400px;
+    background: url(../img/splash.jpg) center center ;
+    background-size: cover;
+    color: #333;
+    border: solid 1px #f9f7cf;
+    border-radius: 10px;
+    font-family: "Noto Serif", serif;
+  }
+  #somos {
+    margin-top: 0px;
+  }
+  .img {
+    width: 110%;
+    height: 354px;
+  }
+  .btn.btn-secondary {
+    margin-left: 28px;
+    width: 70%;
+    height: 15%;
+  }
+  #cards i {
+    margin-left: -2px;
+  }
+  #cards h3 {
+    margin-left: -21px;
+  }
+  #cards p {
+    margin-left: -48px;
+  }
+  #contactanos {
+    margin-left: 53px;
+  }
+  .mb-3 {
+    width: 500px;
+    margin-left: -10px;
+  }
+  #form {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #tarjetas a {
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  #tarjetas i {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #titulo {
+    font-size: 38px;
+  }
+  .boton-nav {
+    font-size: 22px;
+  }
+  .animado {
+    margin: 0px 0px 0px 0px;
+    font-size: 50px;
+  }
+  #form {
+    width: 75%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #cards {
+    margin-bottom: 60px;
+  }
+  #footer {
+    background: #43424233;
+    margin: 0 auto;
+    margin-top: 0px;
+  }
+  #tarjetas a {
+    font-size: 18px;
+  }
+  #tarjetas i {
+    font-size: 21px;
+  }
+}
